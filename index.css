@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+ height: 70vh;
+ background-color: #FFCD9E;
+ width: 100%;
+ display: flex;
+ justify-content: space-evenly;
+ border: 1px solid black;
+ font-size: 1rem;
+
+}
+.footer{
+    height: 30vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.left{
+    width: 30%;
+    margin-top: 60px;
+
+   
+}
+.right{
+    width: 30%;
+   
+}
+img{
+    width: 420px;
+    height: 420px;
+}
+.parents{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+.parents input{
+    padding: 10px;
+    border: 2px solid black;
+
+}
+button{
+    color: white;
+    background-color: black;
+    padding: 10px;
+
+}
+span{
+    color: white;
+    margin-left: 20px;
+}
+ul li{
+    list-style: none;
+    padding: 2px;
+}
+ul li div img{
+    width: 27px;
+    height: 23px;
+}
+.ravi{
+    margin-top: 30px;
+  
+}
+.logo{
+    display: flex;
+    gap: 5px;
+}
+.golu{
+    margin-top: 30px;
+}
+p{
+    font-size: 1rem;
+    font-weight: lighter;
+}
